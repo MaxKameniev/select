@@ -1,0 +1,31 @@
+[
+    {
+        "country": "Country1",
+        "cities": ["City1-1", "City1-2", "City1-3"],
+        "streets": [
+            {"City1": ["Street1", "Street2", "Street3"]},
+            {"City2": ["Street1", "Street2", "Street3"]},
+            {"City3": ["Street1", "Street2", "Street3"]}
+        ]
+    },
+
+    {
+        "country": "Country2",
+        "cities": ["City2-1", "City2-2", "City2-3"],
+        "streets": [
+            {"City1": ["Street1", "Street2", "Street3"]},
+            {"City2": ["Street1", "Street2", "Street3"]},
+            {"City3": ["Street1", "Street2", "Street3"]}
+        ]
+    },
+
+    {
+        "country": "Country3",
+        "cities": ["City3-1", "City3-2", "City3-3"],
+        "streets": [
+            {"City1": ["Street1", "Street2", "Street3"]},
+            {"City2": ["Street1", "Street2", "Street3"]},
+            {"City3": ["Street1", "Street2", "Street3"]}
+        ]
+    }
+]
