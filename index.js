@@ -9,7 +9,7 @@ const URL = "./db.json";
 const getData = () => fetch(URL)
     .then(response => response.json())
     .then(data => {
-        for (let creator of selects(data)) creator.next();
+       selects(data).next();
     })
     .catch(error => console.log(`Fetch eerror - ${error}`));
 
